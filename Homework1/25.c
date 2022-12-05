@@ -18,7 +18,7 @@ int main() {
                 break;
             }
         }
-    if (b>a)
+    if (b>a){
         a=a+b;
         b=a-b;
         a=a-b;
@@ -28,6 +28,6 @@ int main() {
                 break;
             }
         }
-    
+    }
     return 0;
 }
